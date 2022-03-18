@@ -71,7 +71,7 @@ contract ApproveAndCallFallBack {
 /**
 ERC20 Token, with the addition of symbol, name and decimals and assisted token transfers
 */
-contract KYWToken is ERC20Interface, SafeMath {
+contract KYWToken is ERC20Interface, SafeMath { //สัญญา
     string public symbol;
     string public  name;
     uint8 public decimals;
